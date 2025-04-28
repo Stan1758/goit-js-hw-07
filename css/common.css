@@ -55,7 +55,8 @@ h2 {
 .gallery {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  column-gap: 24px;
+  row-gap: 48px;
   object-fit: cover;
 }
 /* #endregion Task2 */
@@ -89,7 +90,7 @@ h2 {
 }
 /* #endregion Task3 */
 
-/* #eregion Task4 */
+/* #region Task4 */
 .login-form {
   display: flex;
   flex-direction: column;
@@ -136,3 +137,40 @@ h2 {
   border: 1px solid #000;
 }
 /* #endregion Task4 */
+
+/* #region Task5 */
+.widget {
+  border-radius: 8px;
+  padding: 100px 30px;
+  width: 345px;
+  height: 280px;
+  background: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.change-color {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 148px;
+  height: 40px;
+  background: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border: none;
+}
+.change-color:hover {
+  background: #6c8cff;
+  cursor: pointer;
+}
+.color {
+  white-space: pre-line;
+}
+
+/* #endregion Task5 */
