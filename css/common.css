@@ -12,3 +12,37 @@ body {
   color: #212121;
   line-height: 1.5;
 }
+h2 {
+  margin-top: 0px;
+  margin-bottom: 16px;
+}
+.item {
+  list-style-type: none;
+  border-radius: 8px;
+  padding: 16px;
+  width: 392px;
+  /* height: 264px; */
+  background: #f6f6fe;
+}
+.item-elements {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.li-elements {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  padding: 8px 16px;
+}
+.general-div {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px;
+  margin: 0 auto;
+}
