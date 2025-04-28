@@ -12,6 +12,8 @@ body {
   color: #212121;
   line-height: 1.5;
 }
+
+/* #region Task1 */
 h2 {
   margin-top: 0px;
   margin-bottom: 16px;
@@ -31,7 +33,6 @@ h2 {
   list-style-type: none;
   padding-left: 0;
 }
-
 .li-elements {
   border: 1px solid #808080;
   border-radius: 4px;
@@ -46,3 +47,4 @@ h2 {
   padding: 24px;
   margin: 0 auto;
 }
+/* #endregion Task1 */
