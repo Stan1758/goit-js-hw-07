@@ -12,7 +12,9 @@ body {
   color: #212121;
   line-height: 1.5;
 }
-
+ul {
+  list-style-type: none;
+}
 /* #region Task1 */
 h2 {
   margin-top: 0px;
@@ -48,3 +50,11 @@ h2 {
   margin: 0 auto;
 }
 /* #endregion Task1 */
+
+/* #region Task2 */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+/* #endregion Task2 */
